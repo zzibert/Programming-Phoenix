@@ -3,8 +3,8 @@ use Mix.Config
 # Configure your database
 config :hello, Hello.Repo,
   username: "postgres",
-  password: "postgres",
-  database: "hello_dev",
+  password: "nekineki",
+  database: "postgres",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
