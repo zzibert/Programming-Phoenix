@@ -18,9 +18,8 @@ defmodule RumblWeb.UserController do
   end
 
   def index(conn, _params) do
-      users = Accounts.list_users()
-      render(conn, "index.html", users: users)
-    end
+    users = Accounts.list_users()
+    render(conn, "index.html", users: users)
   end
 
   def show(conn, %{"id" => id}) do
